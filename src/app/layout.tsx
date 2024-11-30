@@ -16,6 +16,19 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Club 78",
   description: "Club 78",
+  openGraph: {
+    title: "Club 78",
+    description: "Club 78",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Club 78",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
