@@ -96,7 +96,10 @@ export default function Body() {
     Promise.resolve().then(async () => {
       setLoading(true);
 
-      const { data, error } = await supabase.from("articles").select("*");
+      const { data, error } = await supabase
+        .from("articles")
+        .select("*")
+        .order("date", { ascending: false });
 
       setLoading(false);
 
