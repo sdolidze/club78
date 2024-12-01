@@ -37,6 +37,12 @@ export default function Header() {
             კომპანიები
           </a>
           <a
+            href="#education"
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            განათლება
+          </a>
+          <a
             href="#embassies"
             className="text-sm/6 font-semibold text-gray-900"
           >
@@ -80,19 +86,25 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="#companies"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   კომპანიები
                 </a>
                 <a
-                  href="#"
+                  href="#education"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                >
+                  განათლება
+                </a>
+                <a
+                  href="#embassies"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   ელჩები
                 </a>
                 <a
-                  href="#"
+                  href="#government"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   მთავრობა
