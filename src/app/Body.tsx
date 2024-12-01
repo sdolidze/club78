@@ -65,7 +65,7 @@ function List({ articles }: { articles: Article[] }) {
   );
 }
 
-function ListCard({ articles }: { articles: Article[] }) {
+export function ListCard({ articles }: { articles: Article[] }) {
   return articles.map((article) => (
     <div
       key={article.id}
