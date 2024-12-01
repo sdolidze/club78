@@ -30,13 +30,22 @@ export default function Header() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a
+            href="#companies"
+            className="text-sm/6 font-semibold text-gray-900"
+          >
             კომპანიები
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            ელჩები
+          <a
+            href="#embassies"
+            className="text-sm/6 font-semibold text-gray-900"
+          >
+            საელჩოები
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a
+            href="#government"
+            className="text-sm/6 font-semibold text-gray-900"
+          >
             მთავრობა
           </a>
         </PopoverGroup>
